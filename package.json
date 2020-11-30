@@ -6,7 +6,8 @@
   "scripts": {
     "server": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "serve": "webpack serve --mode development"
   },
   "dependencies": {
     "@babel/cli": "^7.12.1",
