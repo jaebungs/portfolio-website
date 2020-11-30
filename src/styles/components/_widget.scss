@@ -1,0 +1,22 @@
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+.widget-header__h3 {
+    margin: 0;
+}
+
+// widget
+
+.widget {
+    margin-bottom: $xl-size;
+}
+
+.widget__message {
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+    font-size: $m-size;
+}
