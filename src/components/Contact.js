@@ -9,6 +9,7 @@ const Contact = () => {
       <a href="https://www.linkedin.com/in/jae-park-robotics" className="anchor">
         <i className="fab fa-linkedin"></i>
       </a>
+      <a className="email--vertical" href="mailto:jaebungs@gmail.com">jaebungs@gmail.com</a>
     </section>
   );
 };

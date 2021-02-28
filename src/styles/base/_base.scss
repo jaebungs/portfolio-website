@@ -6,11 +6,15 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Kanit', sans-serif, 'Merriweather', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    
+    font-family: 'Open Sans', 'Kanit', sans-serif, 'Merriweather', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
   }
-  
+
+  p{
+    margin: 1rem;
+  }

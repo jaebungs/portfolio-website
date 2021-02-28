@@ -1,0 +1,17 @@
+.project-section {
+    margin: 0 $section-margin;
+    color: #fff;
+}
+
+.project {
+    margin: 0 0 $vb-margin 0;
+    letter-spacing: 1px;
+
+    &__info {
+        padding: 0 $b-size
+    }
+
+    &__title {
+        font-size: $b-size;
+    }
+}

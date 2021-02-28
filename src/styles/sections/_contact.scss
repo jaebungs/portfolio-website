@@ -1,5 +1,18 @@
 .contact-section {
-    background-color: transparent;
-    position: absolute;
-    left: 4rem;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
+
+.email--vertical {
+    font-size: $s-size;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+        color: $light-pink;
+    }
 }

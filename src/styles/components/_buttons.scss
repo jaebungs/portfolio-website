@@ -1,7 +1,13 @@
 .anchor {
-    color: $dark-landing-background;
+    color: #fff;
     font-size: $b-size;
     &:hover {
-        color: #242323;
+        color: $light-pink;
     }
+}
+
+.techChip {
+    display: inline-block;
+    margin: $s-margin;
+    font-size: $m-size;
 }
