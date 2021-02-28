@@ -1,0 +1,24 @@
+.header{
+    background-color: $dark-landing-background;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    padding: $m-padding;
+}
+
+.nav {
+    margin: 0 $m-margin;
+
+    &__list {
+        display: flex;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    &__item {
+        text-decoration: none;
+        color: #fff;
+        font-size: $m-size;
+        margin: $s-margin;
+    }
+}

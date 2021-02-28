@@ -1,0 +1,33 @@
+.about-section {
+    min-height: 100vh;
+    color: #fff;
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+
+.pink-square {
+    width: 80rem;
+    height: 45rem;
+    background-color: $pink-square;
+    float: left;
+}
+
+.introduction {
+    &__text{
+        font-size: $intro-typography;
+        letter-spacing: 1.5px;
+        margin-left: $vb-margin;
+    }
+
+}
+
+.lines {
+    margin: $b-margin 0;
+}
+
+.arrow {
+    color: #fff;
+    stroke: #fff;
+    clear: both;
+}
+

@@ -1,0 +1,15 @@
+@import './base/color';
+@import './base/typography';
+@import './base/size';
+@import './base/base';
+
+
+@import './layout//flex';
+@import './layout/header';
+
+@import './components/pictures';
+@import './components/buttons';
+
+@import './sections/contact';
+@import './sections/about';
+@import "~video-react/styles/scss/video-react";
