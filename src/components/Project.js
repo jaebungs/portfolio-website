@@ -1,16 +1,11 @@
 import React from 'react';
-import ProjectRightCard from './projects/ProjectRightCard';
-import ProjectLeftCard from './projects/ProjectLeftCard';
-import MymyCocktails from '../files/mymyCocktails.mp4';
-import MasonryVideo from '../files/masonry-video.mp4';
-
+import ProjectInfoCard from './projects/ProjectInfoCard';
 
 const Project = () => {
     return (
         <section className="project-section">
-            <ProjectRightCard title="Mymy Cocktails" source={MymyCocktails} code={'https://github.com/jaebungs/MyMy-Cocktails'} demo={'https://mymycocktails.netlify.app/'} techs={['React', 'Redux', 'MongoDB', 'Express', 'MaterialUI']}/>
-            
-            <ProjectLeftCard title="Masonry Generator" source={MasonryVideo} code={'https://github.com/jaebungs/gallery-with-admin'} demo={'https://commongooods-1609187154790.web.app/'} techs={['React', 'Firebase', 'SCSS']}/>
+            <ProjectInfoCard title="Mymy cocktails" code={'https://github.com/jaebungs/MyMy-Cocktails'} techs={['React', 'Redux', 'MongoDB', 'Express', 'MaterialUI']} color='dark-green' description='Simple and fun cocktail recipe finder that includes the ability to create an account and save favourite recipes.'/>
+            <ProjectInfoCard title="Masonry generator" code={'https://github.com/jaebungs/MyMy-Cocktails'} techs={['React', 'Firebase', 'SCSS']} color='dark-pink' description='Mansory gallery generator that includes modal extend view, drag and drop order change and multiple image upload and delete.'/>       
         </section>
     )
 }

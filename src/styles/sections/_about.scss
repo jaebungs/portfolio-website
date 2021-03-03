@@ -1,5 +1,4 @@
 .about-section {
-    color: #000;
     padding: 3rem 0;
     margin: 7.5rem auto;
 }
@@ -13,25 +12,12 @@
 
 .about {
     &__text{
-        font-size: $about-typography;
+        font-size: $description-typography;
         margin-left: $vb-margin;
-        p{
-            margin: 0;
-        }
-        .big-typography{
+
+        .description-typography{
             margin-top: $m-margin;
             max-width: 45rem;
         }
     }
 }
-
-.lines {
-    margin: $b-margin 0;
-}
-
-.arrow {
-    color: #fff;
-    stroke: #fff;
-    clear: both;
-}
-

@@ -1,41 +1,38 @@
 .project-section {
-    margin: 0 $section-margin;
-    color: #000;
+  margin: 0 $section-margin;
+  color: #000;
 }
 
 .project {
-    margin: 0 0 $vb-margin 0;
-    letter-spacing: 1px;
+  margin: 0 0 $vb-margin 0;
+  max-width: 45rem;
 
-    &__info {
-        padding: 0 $b-size
-    }
+  &__title {
+    font-size: $big-title;
+    margin-bottom: $m-margin;
+  }
+  &__description {
+    margin: 0;
+    font-size: $normal-font-size;
+  }
 
-    &__title {
-        font-size: $b-size;
+  &__button-container {
+    margin: $m-margin 0;
+  }
+  &__button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.2rem;
+    margin: $s-margin;
+    padding: 0.5rem $s-padding;
+    position: relative;
+    right: 1rem;
+    border: 1px solid $pink-square;
+    &:hover {
+      background-color: $light-pink;
+      color: #000;
     }
-
-    &__stacks {
-        position: relative;
-        right: 1rem;
-    }
-    &__button-container {
-        margin: $m-margin 0;
-    }
-    &__button {
-        text-decoration: none;
-        color: #fff;
-        font-size: 2.2rem;
-        margin: $s-margin;
-        padding: 0.5rem $s-padding;
-        position: relative;
-        right: 1rem;
-        border: 1px solid $pink-square;
-        &:hover{
-            background-color: $light-pink;
-            color: #000;
-        }
-    }
+  }
 }
 // .project-video{
 

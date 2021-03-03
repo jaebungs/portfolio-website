@@ -41,7 +41,8 @@
 }
 
 
-.flex--column--left {
+.flex--column-start {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }

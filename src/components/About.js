@@ -21,7 +21,7 @@ const About = () => {
             <p>Hi, I'm</p>
             <h1 className="bold-typography">Jae Park</h1>
             <p className="bold-typography">a front-end developer</p>
-            <p className="big-typography">I love solving complex problems and making things easier to use.</p>
+            <p className="description-typography">I love solving complex problems and making things easier to use.</p>
             <TechChips techs={['JavaScript', 'React', 'Database', 'Agile Methodology']} color='dark-blue' />
 
           </Trail>

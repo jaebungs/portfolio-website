@@ -1,6 +1,6 @@
 $landing-typography: 4.8rem;
-$about-typography: 2rem;
-$emphasize: 4.5rem;
+$description-typography: 2rem;
+$big-title: 4rem;
 $normal-font-size: 1.6rem;
 
 .bold-typography {
@@ -9,6 +9,6 @@ $normal-font-size: 1.6rem;
     margin: 0;
 }
 
-.big-typography {
-    font-size: $about-typography;
+.description-typography {
+    font-size: $description-typography;
 }
