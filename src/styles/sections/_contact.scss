@@ -1,18 +1,18 @@
-.contact-section {
-    color: #fff;
+.contact {
+    background-color: $black-opacity;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.28), 0 1px 6px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
-    bottom: 20px;
-    left: 30px;
-}
+    padding: 8px;
+    top: 42.5rem;
+    left: 8%;
 
-.email--vertical {
-    font-size: $s-size;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    margin-top: 1.1rem;
-    text-decoration: none;
-    color: #fff;
-    &:hover {
-        color: $light-pink;
+    &__icon {
+        color: #fff;
+        font-size: 2rem;
+        margin: 8px 0;
+        &:hover {
+            color: $light-pink;
+        }
     }
 }

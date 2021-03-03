@@ -1,0 +1,14 @@
+.tech-container {
+    color: #fff;
+    margin-top: 2.4rem;
+    &__chip {
+        font-size: $normal-font-size;
+        margin-right: $chip-margin;
+        padding: 7px $s-padding;
+        border-radius: 29px;
+    }
+
+    .dark-blue{
+        background-color: $dark-blue;
+    }
+}

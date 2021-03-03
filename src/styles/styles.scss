@@ -1,17 +1,16 @@
-@import './base/color';
-@import './base/typography';
-@import './base/size';
 @import './base/base';
+@import './base/color';
+@import './base/size';
+@import './base/typography';
 
 
 @import './layout//flex';
-// @import './layout/trail';
 @import './layout/header';
 
 @import './components/pictures';
 @import './components/buttons';
+@import './components/chips';
 
-@import './sections/landing';
 @import './sections/contact';
 @import './sections/about';
 @import './sections/projects';

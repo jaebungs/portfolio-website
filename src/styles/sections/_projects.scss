@@ -1,6 +1,6 @@
 .project-section {
     margin: 0 $section-margin;
-    color: #fff;
+    color: #000;
 }
 
 .project {
@@ -14,4 +14,29 @@
     &__title {
         font-size: $b-size;
     }
+
+    &__stacks {
+        position: relative;
+        right: 1rem;
+    }
+    &__button-container {
+        margin: $m-margin 0;
+    }
+    &__button {
+        text-decoration: none;
+        color: #fff;
+        font-size: 2.2rem;
+        margin: $s-margin;
+        padding: 0.5rem $s-padding;
+        position: relative;
+        right: 1rem;
+        border: 1px solid $pink-square;
+        &:hover{
+            background-color: $light-pink;
+            color: #000;
+        }
+    }
 }
+// .project-video{
+
+// }

@@ -1,9 +1,14 @@
-$landing-typography: 3rem;
+$landing-typography: 4.8rem;
 $about-typography: 2rem;
-$emphasize: 3.5rem;
+$emphasize: 4.5rem;
+$normal-font-size: 1.6rem;
 
 .bold-typography {
-    font-size: $emphasize;
+    font-size: $landing-typography;
     font-weight: bold;
+    margin: 0;
 }
 
+.big-typography {
+    font-size: $about-typography;
+}

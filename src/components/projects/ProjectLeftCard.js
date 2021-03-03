@@ -13,12 +13,12 @@ const ProjectLeftCard = ({title, source, code, demo, techs}) => {
       </div>
       <div className="project__info">
         <h2 className="project__title">{title}</h2>
-        <div className="project__button-container">
-            <a href={code}><button className="project__button">Code</button></a>
-            <a href={demo}><button className="project__button">Demo</button></a>
-        </div>
+        {/* <div className="project__button-container">
+            <a href={code} className="project__button">Code</a>
+            <a href={demo} className="project__button">Demo</a>
+        </div> */}
 
-        <div>
+        <div className="project__stacks">
         {techs.map((tech, index)=>{
             return <div key={tech+'stackKey'+index} className={'techChip ' + tech}>{tech}</div>
         })}
