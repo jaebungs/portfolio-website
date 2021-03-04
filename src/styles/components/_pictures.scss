@@ -11,8 +11,15 @@
     height: auto;
 }
 
-.project-video {
-    max-width: 60rem;
-    width: 100%;
-    height: auto;
+.cocktail-page-image {
+    border: 2px solid #000;
+    border-radius: 50%;
+    max-width: 50rem;
+    max-height: 50rem;
+}
+
+.masonry-page-image {
+    max-width: 50rem;
+    max-height: 39rem;
+
 }
