@@ -6,6 +6,8 @@
   }
   &__image {
     position: relative;
+    top:0;
+    left: 0;
   }
 }
 
@@ -60,4 +62,38 @@
   top: -3.2rem;
   right: 10rem;
   z-index: -1;
+}
+
+@media (max-width: $midea-big){
+  .project-section {
+    &__article {
+      flex-direction: column;
+    }
+    &__image {
+      margin-bottom: 7rem;
+    }
+  }
+  .responsive-reverse-column{
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: $midea-middle){
+  .project-section {
+    // &__image {
+    //   position:
+    // }
+  }
+
+  // .responsive-image {
+  //   width: 250rem;
+  // }
+  .green-circle {
+    border-radius: 0;
+    max-width: 50rem;
+    max-height: 65rem;
+    top: -3.2rem;
+
+    right: 10rem;
+  }
 }

@@ -21,3 +21,21 @@
         }
     }
 }
+
+@media(max-width: $midea-middle) {
+    .about-section{
+        margin: 0 0 10rem 0;
+        padding: 0;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .blue-square {
+        width: 100vw;
+        height: 30rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}

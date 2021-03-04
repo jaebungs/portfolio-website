@@ -6,7 +6,7 @@ import masonry from '../files/masonry.JPG';
 const Project = () => {
   return (
     <section className="project-section">
-      <article className="project-section__article flex--center">
+      <article className="project-section__article flex--center responsive-reverse-column">
         <ProjectInfoCard
           title="Mymy cocktails"
           code={'https://github.com/jaebungs/MyMy-Cocktails'}
@@ -17,7 +17,7 @@ const Project = () => {
         <div className="project-section__image">
           {/* relative position wrapper div to responsively keep the green cirlce on the same position. */}
           <img
-            className="cocktail-page-image"
+            className="cocktail-page-image responsive-image"
             src={cocktails}
             alt="Mymy cocktail page screenshot"
           />
@@ -28,7 +28,7 @@ const Project = () => {
         <div className="project-section__image">
           <div className="peach-square"></div>
           <img
-            className="masonry-page-image"
+            className="masonry-page-image responsive-image"
             src={masonry}
             alt="masonry generator page screenshot"
           />
