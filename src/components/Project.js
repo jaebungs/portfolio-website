@@ -2,10 +2,12 @@ import React from 'react';
 import ProjectInfoCard from './projects/ProjectInfoCard';
 import cocktails from '../files/cocktails.jpg';
 import masonry from '../files/masonry.JPG';
+import {ParallaxLayer} from 'react-spring/renderprops-addons';
 
 const Project = () => {
   return (
     <section className="project-section">
+      <ParallaxLayer offset={0.6} speed={0}>
       <article className="project-section__article flex--center responsive-reverse-column">
         <ProjectInfoCard
           title="Mymy cocktails"
@@ -38,9 +40,10 @@ const Project = () => {
           code={'https://github.com/jaebungs/MyMy-Cocktails'}
           techs={['React', 'Firebase', 'SCSS']}
           color="dark-pink"
-          description="Mansory gallery generator that includes modal extend view, drag and drop order change and multiple image upload and delete."
+          description="Masonry gallery page generator that includes extend modal view, order change with drag and drop and multiple image upload/delete."
         />
       </article>
+      </ParallaxLayer>
     </section>
   );
 };

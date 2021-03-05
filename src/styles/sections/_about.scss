@@ -1,19 +1,25 @@
 .about-section {
-    padding: 3rem 0;
-    margin: 7.5rem auto;
+    margin-top: 16rem;
+}
+.about-parallax {
+    top: 10rem;
+    left: 0;
+    &__profile-pic {
+        top: 20rem;
+        left: 40rem;
+    }
 }
 
 .blue-square {
     width: 65rem;
     height: 40rem;
     background-color: $light-blue;
-    float: left;
 }
 
 .about {
     &__text{
         font-size: $description-typography;
-        margin-left: $vb-margin;
+        margin-left: 70rem;
 
         .description-typography{
             margin-top: $m-margin;
