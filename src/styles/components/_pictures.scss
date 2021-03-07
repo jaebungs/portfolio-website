@@ -1,3 +1,5 @@
+// size for pictures
+
 .profile-picture{
     width: 16rem;
     height: 16rem;
@@ -5,12 +7,6 @@
     z-index: 10;
 }
 
-.project-image {
-    max-width: 75rem;
-    max-height: 70rem;
-    width: auto;
-    height: auto;
-}
 
 .cocktail-page-image {
     border: 2px solid #000;
@@ -22,5 +18,16 @@
 .masonry-page-image {
     max-width: 50rem;
     max-height: 39rem;
+}
 
+@media (max-width: $media-big) {
+    //ipad size
+    .cocktail-page-image {
+        max-width: 40rem;
+        max-height: 40rem;
+    }
+    .masonry-page-image {
+        max-width: 45rem;
+        max-height: 34rem;
+    }
 }

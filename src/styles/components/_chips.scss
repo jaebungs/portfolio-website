@@ -1,9 +1,12 @@
 .tech-container {
     color: #fff;
     margin-top: 2.4rem;
+    flex-wrap: wrap;
+    
     &__chip {
         font-size: $normal-font-size;
         margin-right: $chip-margin;
+        margin-top: 1rem;
         padding: 7px $s-padding;
         border-radius: 29px;
     }

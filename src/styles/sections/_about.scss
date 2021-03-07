@@ -1,6 +1,9 @@
 .about-section {
     margin-top: 16rem;
+    min-height: 55rem;
+
 }
+
 .about-parallax {
     top: 10rem;
     left: 0;
@@ -28,20 +31,58 @@
     }
 }
 
-@media(max-width: $midea-middle) {
-    .about-section{
-        margin: 0 0 10rem 0;
-        padding: 0;
+// ipad Pro (1024px) positioning
+@media(max-width: $media-big) {
+ 
+    .about-section {
+        margin-top: 15rem;
+        min-height: 65rem;
+
     }
+    .blue-square {
+        width: 40rem;
+        height: 50rem;
+
+    }
+    .about-parallax {
+        top: 15rem;
+        left: 0;
+        &__profile-pic {
+            top: 30rem;
+            left: 15rem;
+        }
+    }
+    .about {
+        &__text{
+            margin-top: 5rem;
+            margin-left: 45rem;
+            margin-right: 5rem;
+        }
+    }
+}
+
+//ipad(768px) sizing and positioing
+@media (max-width: $media-middle) {
 
     .about{
         flex-direction: column;
+        &__text{
+            margin-top: 8rem;
+            margin-left: 35rem;
+            margin-right: 5rem;
+        }
     }
-
     .blue-square {
         width: 100vw;
         height: 30rem;
-        justify-content: center;
-        margin-bottom: 2rem;
+    }
+    .about-parallax {
+        top: 15rem;
+        left: 0;
+        z-index: -1;
+        &__profile-pic {
+            top: 25rem;
+            left: 8rem;
+        }
     }
 }

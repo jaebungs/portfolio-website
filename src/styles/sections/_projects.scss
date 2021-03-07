@@ -1,45 +1,142 @@
 .project-section {
   color: #000;
-  margin: 0 auto;
-  &__article {
-    margin-bottom: 19rem;
+
+  &__right-article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30rem;
+    margin-left: 20%;
   }
-  &__image {
+  &__right-image {
     position: relative;
-    top:0;
+    bottom: 18rem;
     left: 0;
+  }
+
+  &__left-article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30rem;
+
+    .project-description-left {
+      margin-left: 90rem;
+    }
+  }
+  &__left-image {
+    position: relative;
+    top: 0;
+    .left-image {
+      position: relative;
+      left: 40rem;
+      bottom: 6rem;
+    }
+  }
+
+// ipadPro landscape components positioning
+  @media (max-width: $media-big-landscape) {
+    &__right-article {
+      margin-left: 8%;
+      }
+
+    &__left-image {
+      .left-image {
+        left: 20rem;
+      }
+    }
+    &__left-article {
+      .project-description-left {
+        margin-left: 70rem;
+      }
+    }
+    
+    .peach-square {
+      width: 60rem;
+    }
+  }
+
+  //ipad Pro(1024px) sizing and positioing
+  @media (max-width: $media-big) {
+    .project-section {
+      &__article {
+        flex-direction: column;
+      }
+      &__right-image {
+        position: relative;
+        bottom: 16rem;
+        left: 0;
+      }
+      &__left-image {
+        position: relative;
+        top: -2rem;
+        .left-image {
+          position: relative;
+          left: 11rem;
+          top: -5rem;
+        }
+      }
+      &__left-article {
+        .project-description-left {
+          margin-left: 56rem;
+        }
+      }
+    }
+        
+    .peach-square {
+      width: 45rem;
+    }
+  }
+
+  //ipad(768px) sizing and positioing
+  @media (max-width: $media-middle) {
+    .project-section {
+      &__right-article {
+        flex-direction: column-reverse;
+        margin-top: 45rem;
+        margin-left: 0;
+      }
+
+      &__right-image {
+        position: relative;
+        top: -40rem;
+        left: -25rem;
+      }
+
+      &__left-article {
+        flex-direction: column;
+        margin-top: 55rem;
+        .project-description-left {
+          margin-left: 10rem;
+        }
+      }
+      &__left-image {
+        top: -15rem;
+        left: -35rem;
+        .left-image {
+          left: 16rem;
+          top: -10rem;
+        }
+      }
+    }
+
+    .green-circle {
+      width: 45rem;
+      height: 45rem;
+    }
+    .peach-square {
+      width: 55rem;
+      height: 35rem;
+    }
+    
   }
 }
 
 .project {
   margin: $b-margin;
-  max-width: 45rem;
+  max-width: $description-box-size;
 
   &__title {
     font-size: $big-title;
     margin-bottom: $m-margin;
-  }
-  &__description {
-    margin: 0;
-    font-size: $normal-font-size;
-  }
-
-  &__button-container {
-    margin: $m-margin 0;
-  }
-  &__button {
-    text-decoration: none;
-    color: #fff;
-    font-size: 2.2rem;
-    margin: $s-margin;
-    padding: 0.5rem $s-padding;
-    position: relative;
-    right: 1rem;
-    border: 1px solid $pink-square;
-    &:hover {
-      background-color: $light-pink;
-      color: #000;
-    }
   }
 }
 
@@ -51,49 +148,22 @@
     position: absolute;
     top: 0;
     left: 10rem;
-    z-index: -1;
 }
 
 .peach-square {
-  width: 110rem;
+  width: 80rem;
   height: 46rem;
   background-color: $light-peach;
-  position:absolute;
-  top: -3.2rem;
-  right: 10rem;
-  z-index: -1;
 }
 
-@media (max-width: $midea-big){
-  .project-section {
-    &__article {
-      flex-direction: column;
-    }
-    &__image {
-      margin-bottom: 7rem;
-    }
-  }
-  .responsive-reverse-column{
-    flex-direction: column-reverse;
-  }
-}
-
-@media (max-width: $midea-middle){
-  .project-section {
-    // &__image {
-    //   position:
-    // }
-  }
-
-  // .responsive-image {
-  //   width: 250rem;
-  // }
+@media (max-width: $media-big) {
+  
   .green-circle {
-    border-radius: 0;
     max-width: 50rem;
-    max-height: 65rem;
-    top: -3.2rem;
-
-    right: 10rem;
+    max-height: 50rem;
+  }
+  .peach-square {
+    width: 70rem;
+    height: 46rem;
   }
 }

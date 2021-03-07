@@ -1,0 +1,8 @@
+
+.parallaxLayer {
+    &__project{
+        &--background{
+            z-index: -1;
+        }
+    }
+}

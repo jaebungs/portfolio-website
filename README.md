@@ -8,3 +8,6 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 React-spring Parallax problem. - Nested ParallaxLayer does not work well.
+
+### Problem  
+React-spring Parallx is wrapping whole components, so on different device have different height and overflow contents are not displaying.  

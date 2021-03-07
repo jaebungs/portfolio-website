@@ -20,3 +20,15 @@
         }
     }
 }
+.contact-parallax {
+    height: 20rem;
+}
+
+@media (max-width: $media-big) {
+    // ipad pro positioning
+    .contact {
+        top: 57rem;
+        left: 4%;
+
+    }
+}
