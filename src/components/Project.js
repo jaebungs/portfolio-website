@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProjectInfoCard from './projects/ProjectInfoCard';
+import CocktailProjectModal from './modals/CocktailProjectModal';
+import MasonryProjectModal from './modals/MasonryProjectModal';
 import cocktails from '../files/cocktails.jpg';
 import masonry from '../files/masonry.JPG';
 import {ParallaxLayer} from 'react-spring/renderprops-addons';
 
 const Project = () => {
+  const [isCocktailOpen, setIsCocktailOpen] = useState(false);
+  const [isMasonrylOpen, setIsMasonryOpen] = useState(false);
+
   return (
     <section className="project-section">
       <article className="project-section__right-article responsive-reverse-column">
         <ProjectInfoCard
+          setIsOpen={setIsCocktailOpen}
           title="Mymy cocktails"
           code={'https://github.com/jaebungs/MyMy-Cocktails'}
           techs={['React', 'Redux', 'MongoDB', 'Express', 'MaterialUI']}
@@ -48,6 +54,7 @@ const Project = () => {
 
         <div className="project-description-left">
           <ProjectInfoCard
+            setIsOpen={setIsMasonryOpen}
             title="Masonry generator"
             code={'https://github.com/jaebungs/MyMy-Cocktails'}
             techs={['React', 'Firebase', 'SCSS']}
@@ -56,6 +63,8 @@ const Project = () => {
           />
         </div>
       </article>
+      <CocktailProjectModal isOpen={isCocktailOpen} setIsOpen={setIsCocktailOpen} />
+      <MasonryProjectModal isOpen={isMasonrylOpen} setIsOpen={setIsMasonryOpen} />
     </section>
   );
 };

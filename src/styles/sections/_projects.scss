@@ -1,6 +1,9 @@
 .project-section {
   color: #000;
 
+  //article and image controls elements' size and position.
+  // It got so long because I am using React-spring Parallax.
+  // Parallax makes a wrapper div that has absolute position and it made things hard to control.
   &__right-article {
     display: flex;
     align-items: center;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../files/profile.jpg';
-import TechChips from '../hook/TechChips';
+import TechChips from '../helper/TechChips';
 import {ParallaxLayer} from 'react-spring/renderprops-addons';
 
 const About = () => {
@@ -27,7 +27,6 @@ const About = () => {
               techs={['JavaScript', 'React', '(S)CSS','Database', 'Webpack', 'Git', 'Agile Methodology']}
               color="dark-blue"
             />
-
         </div>
       </div>
     </section>

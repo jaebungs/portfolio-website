@@ -1,9 +1,9 @@
 .about-section {
     margin-top: 16rem;
     min-height: 55rem;
-
 }
 
+// about section image size and position.
 .about-parallax {
     top: 10rem;
     left: 0;
@@ -20,6 +20,7 @@
 }
 
 .about {
+    // about section description size and position.
     &__text{
         font-size: $description-typography;
         margin-left: 70rem;
@@ -102,6 +103,30 @@
 
         &__text{
             margin: 0;
+        }
+    }
+}
+
+@media (min-height: 376px) and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) {
+    .about-section {
+        margin-top: 0rem;
+    }
+    .about-parallax {
+        top: 0;
+        &__profile-pic {
+            top: 9rem;
+        }
+    }
+}
+
+@media (max-height: 812px) and (min-width: 800px) and (max-width: 813px) and (orientation: landscape) {
+    .about-section {
+        margin-top: 0rem;
+    }
+    .about-parallax {
+        top: 0;
+        &__profile-pic {
+            top: 9rem;
         }
     }
 }
