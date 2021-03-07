@@ -6,33 +6,60 @@ import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons';
 // import useWindowHeight from './hook/useWindowHeight';
 
 const parallaxPage = () => {
-  let page = 3;
+  let page;
   const windowHeight = window.innerHeight;
   const windowWidth = window.innerWidth;
 
-  // This is tidious... Parallax hides whatever overflowed. Set Parallax page attribute depends on screen height.
+  // Set Parallax page attribute depends on screen height.
+  // Parallax hides whatever overflowed. This is tidious...  
   switch(true) {
-     // for mobile page height
-     case (windowWidth <= 768 && windowHeight <= 1024):
+     // for mobile
+     case ((windowWidth > 768 && windowWidth <= 1024) && (windowHeight > 1024 && windowHeight <= 1366)):
+      // ipad Pro
+      page = 1.6
+      break;
+     case ((windowWidth > 768 && windowWidth <= 1366) && (windowHeight >= 800 && windowHeight <= 1024)):
+      // ipad Pro landScape
+      page = 2
+      break;
+     case ((windowWidth >= 768 && windowWidth <= 1024) && (windowHeight >= 800 && windowHeight <= 1024)):
+      // ipad
       page = 2.6
       break;
-
-    // for desktop page height
-    case (windowHeight > 400 && windowHeight <= 760):
+      case ((windowWidth > 768 && windowWidth <= 1024) && (windowHeight >= 600 && windowHeight <= 768)):
+        // ipad landscape
+        page = 2.6
+        break;
+    case (windowWidth < 768 && (windowHeight >= 800 && windowHeight < 1024)):
+      // other devices
+      page = 2.8
+      break;
+    case ((windowWidth > 280 && windowWidth <= 768) && (windowHeight >= 500 && windowHeight < 800)):
+      // other devices smaller height
+      page = 3.4
+      break;
+    case (windowWidth <= 813 && windowHeight < 420):
+      // other devices landscape
+      page = 5.8
+      break;
+    case (windowWidth <= 280 && windowHeight <= 653):
+      // other devices landscape
+      page = 4
+      break;
+    // for desktop
+    case (windowWidth > 1366 && windowHeight > 400 && windowHeight <= 768):
       page = 2.7;
     break;
-    case (windowHeight > 760 && windowHeight <= 900):
+    case (windowWidth > 1366 && windowHeight > 768 && windowHeight <= 900):
       page = 2.6;
     break;
-    case (windowHeight > 900 && windowHeight <= 1350):
+    case (windowWidth > 1366 && windowHeight > 900 && windowHeight <= 1350):
       page = 2.1
       break;
-    case (windowHeight > 1350):
+    case (windowWidth > 1366 && windowHeight > 1350):
       page = 1.6;
       break;
 
-   
-      
     default:
       page = 2;
       break;

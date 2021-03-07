@@ -34,21 +34,22 @@
 
 // ipadPro landscape components positioning
   @media (max-width: $media-big-landscape) {
+    .project-section {
     &__right-article {
-      margin-left: 8%;
+      margin-left: 11%;
       }
 
     &__left-image {
       .left-image {
-        left: 20rem;
+        left: 15rem;
       }
     }
     &__left-article {
       .project-description-left {
-        margin-left: 70rem;
+        margin-left: 65rem;
       }
     }
-    
+  } 
     .peach-square {
       width: 60rem;
     }
@@ -60,6 +61,10 @@
       &__article {
         flex-direction: column;
       }
+      &__right-article {
+        margin-left: 8%;
+        }
+  
       &__right-image {
         position: relative;
         bottom: 16rem;
@@ -67,11 +72,11 @@
       }
       &__left-image {
         position: relative;
-        top: -2rem;
+        top: -5rem;
         .left-image {
           position: relative;
           left: 11rem;
-          top: -5rem;
+          top: -3rem;
         }
       }
       &__left-article {
@@ -87,7 +92,7 @@
   }
 
   //ipad(768px) sizing and positioing
-  @media (max-width: $media-middle) {
+  @media (max-width: $media-medium) {
     .project-section {
       &__right-article {
         flex-direction: column-reverse;
@@ -101,19 +106,20 @@
         left: -25rem;
       }
 
-      &__left-article {
-        flex-direction: column;
-        margin-top: 55rem;
-        .project-description-left {
-          margin-left: 10rem;
-        }
-      }
+      
       &__left-image {
-        top: -15rem;
+        top: -13rem;
         left: -35rem;
         .left-image {
           left: 16rem;
           top: -10rem;
+        }
+      }
+      &__left-article {
+        flex-direction: column;
+        margin-top: 53rem;
+        .project-description-left {
+          margin-left: 15rem;
         }
       }
     }
@@ -128,6 +134,43 @@
     }
     
   }
+
+// less than 700px
+  @media(max-width: $media-small) {
+    .project-section {
+      &__right-article {
+        margin-top: 23rem;
+      }
+      &__right-image {
+        top: -25rem;
+        left: -18rem;
+      }
+  
+      &__left-image {
+        top: 0rem;
+        .left-image {
+          left: 18rem;
+        }
+      }
+      &__left-article {
+        margin-top: 15rem;
+        .project-description-left {
+          margin-left: 0rem;
+        }
+      }
+    }
+    .green-circle {
+      width: 40rem;
+      height: 40rem;
+      left: 5rem;
+    }
+    .peach-square {
+      width: 47rem;
+      height: 30rem;
+    }
+  }
+
+
 }
 
 .project {

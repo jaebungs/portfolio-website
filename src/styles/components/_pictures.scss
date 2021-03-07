@@ -31,3 +31,15 @@
         max-height: 34rem;
     }
 }
+
+// less than 700px
+@media(max-width: $media-small) {
+    .cocktail-page-image {
+        max-width: 35rem;
+        max-height: 35rem;
+    }
+    .masonry-page-image {
+        max-width: 35rem;
+        max-height: 24rem;
+    }
+}

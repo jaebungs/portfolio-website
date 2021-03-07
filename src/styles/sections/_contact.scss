@@ -1,34 +1,53 @@
 .contact-parallax {
-    z-index: 1;
-
+  z-index: 1;
 }
 
 .contact {
-    background-color: $black-opacity;
-    border-radius: 4px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.28), 0 1px 6px 0 rgba(0, 0, 0, 0.2);
-    position: fixed;
-    padding: 8px;
-    top: 42.5rem;
-    left: 8%;
-    &__icon {
-        color: #fff;
-        font-size: 2rem;
-        margin: 8px 0;
-        &:hover {
-            color: $light-pink;
-        }
+  background-color: $black-opacity;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.28), 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  padding: 8px;
+  top: 42.5rem;
+  left: 8%;
+  &__icon {
+    color: #fff;
+    font-size: 2rem;
+    margin: 8px 0;
+    &:hover {
+      color: $light-pink;
     }
+  }
+
+
 }
 .contact-parallax {
-    height: 20rem;
+  height: 20rem;
 }
-
-@media (max-width: $media-big) {
+@media (max-width: $media-big-landscape) {
     // ipad pro positioning
     .contact {
-        top: 57rem;
-        left: 4%;
-
+      top: 42rem;
+      left: 4%;
     }
+  }
+
+@media (max-width: $media-big) {
+  // ipad pro positioning
+  .contact {
+    top: 37rem;
+    left: 4%;
+  }
+}
+//less than 700px
+@media (max-width: $media-small) {
+.contact {
+    flex-direction: row;
+    justify-content: flex-end;
+    top: 0rem;
+    left: 60%;
+    &__icon { 
+        margin: 0.5rem 1rem;
+    }
+}
 }

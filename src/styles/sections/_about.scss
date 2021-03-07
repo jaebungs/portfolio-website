@@ -62,7 +62,7 @@
 }
 
 //ipad(768px) sizing and positioing
-@media (max-width: $media-middle) {
+@media (max-width: $media-medium) {
 
     .about{
         flex-direction: column;
@@ -83,6 +83,25 @@
         &__profile-pic {
             top: 25rem;
             left: 8rem;
+        }
+    }
+}
+
+// less than 700px
+@media(max-width: $media-small) {
+    .about-parallax {
+        top: 7rem;
+
+        &__profile-pic {
+            display: none;
+        }
+    }
+    .about{
+        max-width: 40rem;
+        padding: 0 3rem;
+
+        &__text{
+            margin: 0;
         }
     }
 }
