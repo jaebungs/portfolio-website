@@ -16,7 +16,7 @@ const Project = () => {
         <ProjectInfoCard
           setIsOpen={setIsCocktailOpen}
           title="Mymy cocktails"
-          code={'https://github.com/jaebungs/MyMy-Cocktails'}
+          demo={'https://mymycocktails.netlify.app/'}
           techs={['React', 'Redux', 'MongoDB', 'Express', 'MaterialUI']}
           color="dark-green"
           description="Simple and fun cocktail recipe finder that includes the ability to create an account and save favourite recipes."
@@ -56,15 +56,15 @@ const Project = () => {
           <ProjectInfoCard
             setIsOpen={setIsMasonryOpen}
             title="Masonry generator"
-            code={'https://github.com/jaebungs/MyMy-Cocktails'}
+            demo={'https://commongooods-1609187154790.web.app/'}
             techs={['React', 'Firebase', 'SCSS']}
             color="dark-pink"
             description="Masonry gallery page generator that includes extend modal view, order change with drag and drop and multiple image upload/delete."
           />
         </div>
       </article>
-      <CocktailProjectModal isOpen={isCocktailOpen} setIsOpen={setIsCocktailOpen} />
-      <MasonryProjectModal isOpen={isMasonrylOpen} setIsOpen={setIsMasonryOpen} />
+      <CocktailProjectModal isOpen={isCocktailOpen} setIsOpen={setIsCocktailOpen} code='https://github.com/jaebungs/MyMy-Cocktails' />
+      <MasonryProjectModal isOpen={isMasonrylOpen} setIsOpen={setIsMasonryOpen} code='https://github.com/jaebungs/gallery-with-admin' />
     </section>
   );
 };

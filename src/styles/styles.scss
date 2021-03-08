@@ -4,11 +4,11 @@
 @import './base/size';
 @import './base/typography';
 
-
 @import './layout//flex';
 @import './layout/header';
 @import './layout/parallaxLayer';
 
+@import './components/modal';
 @import './components/pictures';
 @import './components/buttons';
 @import './components/chips';

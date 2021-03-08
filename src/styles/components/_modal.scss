@@ -1,0 +1,49 @@
+.modal__p {
+    line-height: 2;
+}
+.modal__table{
+    line-height: 1.5;
+}
+
+.modal {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-size: $b-size;
+        margin: $m-margin 0;
+    }
+
+    &__subtitle{
+        font-size: 2.2rem;
+        margin-top: 3.5rem;
+    }
+
+    &__grid-table{
+        display: grid;
+        grid-template-columns: minmax(350px, 0.4fr) minmax(350px, 1fr);
+        grid-gap: 1px;
+        text-align: left;
+    }
+
+    
+}
+
+.table__header{
+    border: 1px solid #000;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.table__problem{
+    border: 1px solid #000;
+    padding: 2rem;
+}
+.table__solution{
+    border: 1px solid #000;
+    padding: 2rem;
+
+}
