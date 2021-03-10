@@ -4,7 +4,7 @@ export const parallaxPageHeight = () => {
     const windowWidth = window.innerWidth;
   
     // Set Parallax page attribute depends on screen height.
-    // Parallax hides whatever overflowed. This is tidious...  
+    // Parallax hides whatever overflowed. This is tidious!
     switch(true) {
        // for mobile
        case ((windowWidth > 768 && windowWidth <= 1024) && (windowHeight > 1024 && windowHeight <= 1366)):
@@ -40,7 +40,7 @@ export const parallaxPageHeight = () => {
           page = 3.6
         break;
         case ((windowWidth > 280 && windowWidth <= 320) && (windowHeight >= 560 && windowHeight < 667)):
-          // iphone 5
+          
           page = 4.3
         break;
         case ((windowWidth > 280 && windowWidth <= 320) && (windowHeight >= 500 && windowHeight <= 731)):
@@ -52,7 +52,7 @@ export const parallaxPageHeight = () => {
         page = 5.2
         break;
       case ((windowWidth >=731 && windowWidth < 813) && windowHeight < 420):
-        // other devices landscape
+        // IphoneX landscape
         page = 6.1
         break;
         
@@ -98,7 +98,6 @@ export const parallaxPageHeight = () => {
         page = 2;
         break;
     }
-    console.log(page)
   
     return page;
   }

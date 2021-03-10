@@ -1,11 +1,12 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  
 }
 
 body {
     margin: 0;
-    
+    max-width: 2400px;
     font-family: 'Open Sans', 'Kanit', sans-serif, 'Merriweather', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
