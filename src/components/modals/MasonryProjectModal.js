@@ -126,8 +126,13 @@ const MasonryProjectModal = ({isOpen, setIsOpen, code}) => {
         <p className="table__solution">
           Learn BEM, SMACSS, OOCSS.<br></br>I read articles, but I need to practice more.
         </p>
-        <p className="table__problem"></p>
-        <p className="table__solution"></p>
+        <p className="table__problem">Lazy loading.</p>
+        <p className="table__solution">Rendering videos and images are heavy work. Painting multiple contents at once will increase blocking time which means bad site performance.<br></br>
+        One solution is lazy loading.<br></br>
+        Instead of loading everything at once, download sections or contents that only what the user needs.<br></br>
+        Use loading=”lazy” with inline width and height.<br></br>
+        After defining the width on the line, lazy loading started to work.
+        </p>
       </div>
 
       <h3 className="modal__subtitle pink-typography">Other learning outcomes</h3>
