@@ -6,6 +6,7 @@ However, as I study more and create more projects, I couldn't stop thinking abou
 I am enjoying this journey and hoping to continue with talented people.  
 
 This site is built with CRA, SCSS and React-Spring.  
+I'll make sure use ESLint for next project. It was super useful.
 
 ### Problem  
 React-spring Parallax is wrapping whole components and change to absoulte position with overflow hidden.

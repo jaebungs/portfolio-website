@@ -2,15 +2,21 @@ import React from 'react';
 import TechChips from '../../helper/TechChips';
 
 const ProjectInfoCard = ({setIsOpen, title, demo, techs, color, description}) => {
-
   return (
     <div className="project flex--column-start">
       <h2 className="project__title">{title}</h2>
       <p className="description-typography">{description}</p>
       <TechChips techs={techs} color={color} />
       <div className="project-btn-container">
-        <button onClick={()=>setIsOpen(true)} className="project-btn-container__button">CASE STUDY</button>
-        <button onClick={()=>window.open(demo, '_blank')} className="project-btn-container__button">DEMO</button>
+        <button onClick={() => setIsOpen(true)} className="project-btn-container__button">
+          CASE STUDY
+        </button>
+        <button
+          onClick={() => window.open(demo, '_blank')}
+          className="project-btn-container__button"
+        >
+          DEMO
+        </button>
       </div>
     </div>
   );

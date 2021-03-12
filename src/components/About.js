@@ -16,17 +16,24 @@ const About = () => {
         </ParallaxLayer>
 
         <div className="about__text">
-
-            <p>Hi, I'm</p>
-            <h1 className="bold-typography">Jae Park,</h1>
-            <p className="bold-typography">a front-end developer</p>
-            <p className="description-typography">
-              I love solving complex problems and making things easier to use.
-            </p>
-            <TechChips
-              techs={['JavaScript', 'React', '(S)CSS','Database', 'Webpack', 'Git', 'Agile Methodology']}
-              color="dark-blue"
-            />
+          <p>Hi, I'm</p>
+          <h1 className="bold-typography">Jae Park,</h1>
+          <p className="bold-typography">a front-end developer</p>
+          <p className="description-typography">
+            I love solving complex problems and making things easier to use.
+          </p>
+          <TechChips
+            techs={[
+              'JavaScript',
+              'React',
+              '(S)CSS',
+              'Database',
+              'Webpack',
+              'Git',
+              'Agile Methodology',
+            ]}
+            color="dark-blue"
+          />
         </div>
       </div>
     </section>

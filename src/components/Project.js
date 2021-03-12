@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import ProjectInfoCard from './projects/ProjectInfoCard';
 import CocktailProjectModal from './modals/CocktailProjectModal';
 import MasonryProjectModal from './modals/MasonryProjectModal';
@@ -39,11 +39,21 @@ const Project = () => {
 
       <article className="project-section__left-article">
         <div className="project-section__left-image">
-          <ParallaxLayer className="parallaxLayer__project--background" offset={0} factor={0} speed={0.2}>
+          <ParallaxLayer
+            className="parallaxLayer__project--background"
+            offset={0}
+            factor={0}
+            speed={0.2}
+          >
             <div className="peach-square"></div>
           </ParallaxLayer>
 
-          <ParallaxLayer className="parallaxLayer__project--image" offset={0} factor={0} speed={0.1}>
+          <ParallaxLayer
+            className="parallaxLayer__project--image"
+            offset={0}
+            factor={0}
+            speed={0.1}
+          >
             <img
               className="masonry-page-image left-image responsive-image"
               src={masonry}
@@ -63,8 +73,16 @@ const Project = () => {
           />
         </div>
       </article>
-      <CocktailProjectModal isOpen={isCocktailOpen} setIsOpen={setIsCocktailOpen} code='https://github.com/jaebungs/MyMy-Cocktails' />
-      <MasonryProjectModal isOpen={isMasonrylOpen} setIsOpen={setIsMasonryOpen} code='https://github.com/jaebungs/gallery-with-admin' />
+      <CocktailProjectModal
+        isOpen={isCocktailOpen}
+        setIsOpen={setIsCocktailOpen}
+        code="https://github.com/jaebungs/MyMy-Cocktails"
+      />
+      <MasonryProjectModal
+        isOpen={isMasonrylOpen}
+        setIsOpen={setIsMasonryOpen}
+        code="https://github.com/jaebungs/gallery-with-admin"
+      />
     </section>
   );
 };

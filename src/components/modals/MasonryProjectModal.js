@@ -113,13 +113,18 @@ const MasonryProjectModal = ({isOpen, setIsOpen, code}) => {
           Data flow.<br></br>
           When uploading, add images to the Storage. Once images are saved in the Storage, get the
           URL and create an object that contains other metadata. Third, update image order.<br></br>
-          When deleting, instead of deleting by indexes in the Firestore, make state changes then upload the state.
+          When deleting, instead of deleting by indexes in the Firestore, make state changes then
+          upload the state.
         </p>
 
-        <p className="table__problem">Let’s use a library next time. Drag and Drop function on mobile does not work.</p>
+        <p className="table__problem">
+          Let’s use a library next time. Drag and Drop function on mobile does not work.
+        </p>
         <p className="table__solution">
           I wanted to build everything from scratch, so I used HTML drag and drop API.<br></br>
-          It felt really good after many obstacles. However, I found that it does not work on mobile! There were many things to consider drag and drop functions to work in mobile.<br></br>
+          It felt really good after many obstacles. However, I found that it does not work on
+          mobile! There were many things to consider drag and drop functions to work in mobile.
+          <br></br>
           Using lots of libraries is not good, but sometimes it is necessary.
         </p>
 
