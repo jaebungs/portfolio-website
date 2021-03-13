@@ -30,7 +30,6 @@ function App() {
     setPageHeight(calculateBodyHeight())
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  console.log(pageHeight)
 
   const calculateBodyHeight = () => {
     const desktop = 2050;
