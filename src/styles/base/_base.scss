@@ -1,7 +1,10 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
-  
+  overflow: hidden;
+  @media(max-width:700px) and (orientation: portrait){
+      font-size: 8px;
+  };
 }
 
 body {
@@ -13,6 +16,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
+
   }
 
 h1, h2, h3, h4, h5, h6{
@@ -24,3 +28,8 @@ p {
   padding: 0;
   line-height: normal;
 }
+
+// .app {
+//   position: relative;
+//   height: 105vh;
+// }
