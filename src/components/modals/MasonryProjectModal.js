@@ -48,7 +48,11 @@ const MasonryProjectModal = ({isOpen, setIsOpen, code}) => {
       <h3 className="modal__subtitle pink-typography">Introduction</h3>
       <p className="modal__p">
         Upload images. Then, there will be a Masonry gallery website!<br></br>A friend who has a
-        Shopify website wanted to have a photo gallery function to display some of her works.
+        Shopify website wanted to have a photo gallery function to display some of her works. <br></br>
+        <br></br>
+        Admin button is at the bottom right corner of the app.<br></br>
+        ID: test@test.com<br></br>
+        PW: testtest
       </p>
 
       <h3 className="modal__subtitle pink-typography">The goal</h3>
