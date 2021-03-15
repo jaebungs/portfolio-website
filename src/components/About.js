@@ -26,11 +26,13 @@ const About = () => {
             techs={[
               'JavaScript',
               'React',
-              '(S)CSS',
-              'HTML',
+              'Redux',
+              'Node.js',
               'PostgreSQL',
               'MongoDB',
               'Firebase',
+              '(S)CSS',
+              'HTML',
               'Webpack',
               'Git',
             ]}
