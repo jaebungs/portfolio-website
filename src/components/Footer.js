@@ -4,6 +4,7 @@ const Footer = () => {
   const handleCodeOnClick = () => {
     window.open('https://github.com/jaebungs/portfolio-website', '_blank');
   };
+  
   return (
     <div className="footer">
         <p className="footer-typography">
