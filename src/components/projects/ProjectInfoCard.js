@@ -8,12 +8,13 @@ const ProjectInfoCard = ({setIsOpen, title, demo, techs, color, description}) =>
       <p className="description-typography">{description}</p>
       <TechChips techs={techs} color={color} />
       <div className="project-btn-container">
-        <button onClick={() => setIsOpen(true)} className={`project-btn-container__button ${color}-btn`}>
+        <button onClick={() => setIsOpen(true)} className={`project-btn-container__button ${color}-btn`} aria-label={`${title} case study button`}>
           CASE STUDY
         </button>
         <button
           onClick={() => window.open(demo, '_blank')}
           className={`project-btn-container__button ${color}-btn`}
+          aria-label={`${title} demo button`}
         >
           DEMO
         </button>

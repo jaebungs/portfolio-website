@@ -149,7 +149,7 @@ const CocktailProjectModal = ({isOpen, setIsOpen, code}) => {
         </p>
         <p className="table__solution">
           Researched and wrote a short article why Redux needed a middleware like redux-thunk.
-          <a href="https://dev.to/jaebungs/why-redux-thunk- 1dka">
+          <a href="https://dev.to/jaebungs/why-redux-thunk-1dka">
             {' '}
             A short article about why a middleware is neccessary.
           </a>
@@ -184,10 +184,13 @@ const CocktailProjectModal = ({isOpen, setIsOpen, code}) => {
         <p className="table__solution">
           It was my first time using an SVG format image on an app. There are some options for using
           SVG files.<br></br>
-          First, use it with <code>{'<img>'}</code>.<br></br> Second, use it as a component (inline
-          SVG).<br></br>Using SVG as a component is better because we can control style and even
-          animate SVG files.
-          <br></br> This app is not CRA, thus, SVGR library was required and used in webpack.
+          First, use it with <code>{'<img>'}</code>.<br></br> 
+          Second, use it as a inline SVG.<br></br>
+          Making SVG as a component is the best option because of the follow reasons:<br></br>
+          - Reusable.<br></br>
+          - Easily modify styles and apply animation.<br></br>
+          <br></br>
+          This app is not CRA, thus, SVGR library was required and used in webpack.
           <br></br>
           <br></br>
           On top of that, I learned differences between image types.<br></br>
