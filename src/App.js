@@ -3,9 +3,9 @@ import Contact from './components/Contact';
 import About from './components/About';
 import CT from './components/CT'
 import TCO from './components/TCO'
-import FluidTypo from './components/fluidTypo'
-import Visualizer from './components/visualizer'
-import Cocktail from './components/cocktail';
+import FluidTypo from './components/FluidTypo'
+import Visualizer from './components/Visualizer'
+import Cocktail from './components/Cocktail';
 import Masonry from './components/Masonry';
 import Footer from './components/Footer';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons';
