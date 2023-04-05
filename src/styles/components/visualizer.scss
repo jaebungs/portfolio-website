@@ -1,0 +1,31 @@
+.visualizer-image {
+    width: 320px;
+    height: 180px;
+    margin-top: 25rem;
+}
+
+.light-pink-square {
+    background-color: $light-pink2;
+    width: 340px;
+    height: 340px;
+    margin-top: 18rem;
+}
+
+.light-pink-square.rotated {
+    transform: rotate(-75deg);
+}
+
+@media (min-width: 700px){
+    .visualizer-image {
+        width: 420px;
+        height: 220px;
+        margin-top: 38rem;
+    }
+    
+    .light-pink-square {
+        background-color: $light-pink2;
+        width: 560px;
+        height: 560px;
+        margin-top: 25rem;
+    }
+}

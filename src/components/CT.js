@@ -12,7 +12,7 @@ const CT = () => {
         <ProjectInfoCard
           title="Enhanced Dealer Search"
           demo={'https://www.bmwusa.com/inventory.html'}
-          techs={['Vue', 'VueX', 'Graphql']}
+          techs={['Vue', 'VueX', 'Graphql', 'CSS']}
           color="dark-pink"
           description="Implemented new API and UIs that enabling users to view new and used inventory on a selected dealership."
         />

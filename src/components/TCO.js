@@ -36,7 +36,7 @@ const TCO = () => {
                 />
           </ParallaxLayer>
           <ParallaxLayer
-            className="parallaxLayer__project--background lowest"
+            className="parallaxLayer__project--background z-lowest"
             offset={0}
             factor={0}
             speed={0.2}
@@ -49,7 +49,7 @@ const TCO = () => {
           <ProjectInfoCard
             title="Saving Calculator"
             demo={'https://www.bmwusa.com/vehicles/all-electric/ix/sports-activity-vehicle/overview.html#savings-calculatorm'}
-            techs={['JavaScript', 'AEM', 'SCSS']}
+            techs={['JavaScript', 'AEM', 'CSS']}
             color="dark-tilt"
             description="EV ownership calculator that calculates potential savings based on fuel and electricity price in the user’s region with their mileage and fuel efficiency."
           />
