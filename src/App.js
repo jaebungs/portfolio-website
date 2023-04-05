@@ -5,7 +5,7 @@ import CT from './components/CT'
 import TCO from './components/TCO'
 import FluidTypo from './components/fluidTypo'
 import Visualizer from './components/visualizer'
-import Project from './components/Project';
+import Cocktail from './components/cocktail';
 import Masonry from './components/Masonry';
 import Footer from './components/Footer';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons';
@@ -37,10 +37,10 @@ function App() {
         <ParallaxLayer offset={3.9} factor={0} speed={0.1}>
           <Visualizer />
         </ParallaxLayer>   
-        <ParallaxLayer offset={5} factor={0} speed={0.1}>
-          <Project />
+        <ParallaxLayer offset={4.9} factor={0} speed={0.1}>
+          <Cocktail />
         </ParallaxLayer>
-        <ParallaxLayer offset={6} factor={0} speed={0.1}>
+        <ParallaxLayer offset={5.9} factor={0} speed={0.1}>
           <Masonry />
         </ParallaxLayer>
         <ParallaxLayer offset={6.7} speed={0.1}>

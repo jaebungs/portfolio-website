@@ -1,5 +1,4 @@
-// size for pictures
-
+// size for pictures - masonry and profile
 .profile-picture{
     width: 16rem;
     height: 16rem;
@@ -8,13 +7,6 @@
 }
 
 
-.cocktail-page-image {
-    border: 2px solid #000;
-    border-radius: 50%;
-    max-width: 50rem;
-    max-height: 50rem;
-}
-
 .masonry-page-image {
     max-width: 50rem;
     max-height: 39rem;
@@ -22,10 +14,6 @@
 
 @media (max-width: $media-big) {
     //ipad size
-    .cocktail-page-image {
-        max-width: 40rem;
-        max-height: 40rem;
-    }
     .masonry-page-image {
         max-width: 45rem;
         max-height: 34rem;
@@ -34,10 +22,6 @@
 
 // less than 700px
 @media(max-width: $media-small) {
-    .cocktail-page-image {
-        max-width: 35rem;
-        max-height: 35rem;
-    }
     .masonry-page-image {
         max-width: 35rem;
         max-height: 24rem;

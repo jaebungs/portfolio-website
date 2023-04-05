@@ -1,0 +1,24 @@
+// size for mymy cocktail
+.cocktail-page-image {
+    border: 2px solid #000;
+    border-radius: 50%;
+    max-width: 50rem;
+    max-height: 50rem;
+}
+
+
+@media (max-width: $media-big) {
+    //ipad size
+    .cocktail-page-image {
+        max-width: 40rem;
+        max-height: 40rem;
+    }
+}
+
+// less than 700px
+@media(max-width: $media-small) {
+    .cocktail-page-image {
+        max-width: 35rem;
+        max-height: 35rem;
+    }
+}

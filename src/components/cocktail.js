@@ -4,7 +4,7 @@ import CocktailProjectModal from './modals/CocktailProjectModal';
 import cocktails from '../files/cocktails.jpg';
 import {ParallaxLayer} from 'react-spring/renderprops-addons';
 
-const Project = () => {
+const Cocktail = () => {
   const [isCocktailOpen, setIsCocktailOpen] = useState(false);
 
   return (
@@ -43,4 +43,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Cocktail;
