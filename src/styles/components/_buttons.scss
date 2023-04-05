@@ -28,7 +28,12 @@
             color: #fff;
         }
     }
-
+    .dark-tilt-btn {
+        &:hover {
+            background-color: $dark-tilt;
+            color: #fff;
+        }
+    }
 }
 
 .modal__close-button{
@@ -92,5 +97,7 @@
             color: #000;
         }
     }
+
+
 
 }

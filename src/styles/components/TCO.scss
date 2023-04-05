@@ -1,0 +1,47 @@
+.tco-main-image {
+    margin-top: -10rem;
+    margin-left: -10rem;
+    width: 250px;
+    height: 150px;
+}
+
+.tco-modal-image {
+    margin-top: -8rem;
+    margin-left: 12rem;
+    width: 260px;
+    height: 190px;
+}
+
+.tilt-triangle {
+    margin-top: -20rem;
+    margin-left: 10rem;
+    width: 380px;
+    height: 380px;
+    background-color: $tilt;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(30deg);
+}
+
+.lowest {
+    z-index: -100;
+}
+
+@media (min-width: 700px){
+    .tco-main-image {
+        margin-top: 0;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .tco-modal-image {
+        margin-top: 15rem;
+        width: 320px;
+        height: 230px;
+    }
+
+    .tilt-triangle {
+        margin-left: 15rem;
+        width: 600px;
+        height: 600px;
+    }
+}
