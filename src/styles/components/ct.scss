@@ -19,10 +19,6 @@
     margin-top: 5rem;
 }
 
-.lowest {
-    z-index: -100;
-}
-
 // why did I use 700 as a breakpoint? it's 2 year ago, but the number is so random
 @media (min-width: 700px){
     .zipgate-image {

@@ -1,0 +1,30 @@
+.fluid-typo-image {
+    margin-top: 15rem;
+    width: 310px;
+    height: 190px;
+    margin-left: 5rem;
+}
+
+.blue-rectangle {
+    background-color: $blue;
+    width: 450px;
+    height: 250px;
+    margin-top: 25rem;
+    margin-left: 10rem;
+}
+
+@media (min-width: 700px){
+    .fluid-typo-image {
+        margin-top: 28rem;
+        width: 380px;
+        height: 200px;
+        margin-left: 0;
+    }
+    
+    .blue-rectangle {
+        background-color: $blue;
+        width: 750px;
+        height: 300px;
+        margin-top: 40rem;
+    }
+}

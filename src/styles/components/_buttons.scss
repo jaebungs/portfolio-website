@@ -34,6 +34,12 @@
             color: #fff;
         }
     }
+    .dark-blue-btn {
+        &:hover {
+            background-color: $dark-blue;
+            color: #fff;
+        }
+    }
 }
 
 .modal__close-button{

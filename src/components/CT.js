@@ -25,14 +25,10 @@ const CT = () => {
               alt="Dealership search example screenshot"
             />
           </ParallaxLayer>
-
-          <ParallaxLayer className="parallaxLayer__project--background" offset={0} speed={0.2}>
+          <ParallaxLayer className="parallaxLayer__project--background z-middle" offset={0} speed={0.2}>
             <img className="inventory-image" src={inventoryImg} alt="BMW Inventory page image"/>
           </ParallaxLayer>
-          <ParallaxLayer className="parallaxLayer__project--background" offset={0} speed={0.2}>
-            <img className="inventory-image" src={inventoryImg} alt="BMW Inventory page image"/>
-          </ParallaxLayer>
-          <ParallaxLayer className="parallaxLayer__project--background lowest" offset={0} factor={0.3}  speed={0.3}>
+          <ParallaxLayer className="parallaxLayer__project--background z-lowest" offset={0} factor={0.3}  speed={0.3}>
             <div className="pink-circle"></div>
           </ParallaxLayer>
         </div>
