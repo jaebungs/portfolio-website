@@ -1,4 +1,3 @@
-import  { useState, useEffect, useRef } from "react";
 import Contact from './components/Contact';
 import About from './components/About';
 import CT from './components/CT'
@@ -10,7 +9,6 @@ import Masonry from './components/Masonry';
 import Footer from './components/Footer';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons';
 import Modal from 'react-modal';
-import { useMediaQuery } from 'react-responsive'
 
 Modal.setAppElement('#root');
 
