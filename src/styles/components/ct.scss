@@ -1,0 +1,47 @@
+.zipgate-image {
+    margin-left: -35px;
+    width: 200px;
+    height: 180px;
+}
+
+.inventory-image {
+    margin-left: 15rem;
+    width: 230px;
+    height: 150px;
+}
+
+.pink-circle {
+    background-color: $pink;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    z-index: -10;
+    margin-top: 5rem;
+}
+
+.lowest {
+    z-index: -100;
+}
+
+// why did I use 700 as a breakpoint? it's 2 year ago, but the number is so random
+@media (min-width: 700px){
+    .zipgate-image {
+        margin-top: 50px;
+        width: 300px;
+        height: 250px;
+    }
+    
+    .inventory-image {
+        margin-top: 50px;
+        margin-left: 20rem;
+        width: 320px;
+        height: 220px;
+    }
+    
+    .pink-circle {
+        width: 55rem;
+        height: 55rem;
+        margin-left: 7rem;
+    }
+    
+}

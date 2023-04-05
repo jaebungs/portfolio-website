@@ -1,4 +1,5 @@
 import React from 'react';
+import {ParallaxLayer} from 'react-spring/renderprops-addons';
 
 const Footer = () => {
   const handleCodeOnClick = () => {

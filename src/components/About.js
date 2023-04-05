@@ -8,10 +8,10 @@ const About = () => {
   return (
     <section className="about-section" id="about">
       <div className="about flex--vertical-center">
-        <ParallaxLayer className="about-parallax" offset={0} factor={1.6} speed={0.2}>
+        <ParallaxLayer className="about-parallax" offset={0} speed={0.2}>
           <div className="blue-square"></div>
         </ParallaxLayer>
-        <ParallaxLayer className="about-parallax__profile-pic" offset={0} factor={0} speed={0.1}>
+        <ParallaxLayer className="about-parallax__profile-pic" offset={0} speed={0.1}>
           <img className="profile-picture" src={Image} alt="Jae's profile" />
         </ParallaxLayer>
 
@@ -25,16 +25,18 @@ const About = () => {
           <TechChips
             techs={[
               'JavaScript',
+              'Vue',
               'React',
+              'VueX',
               'Redux',
+              'AEM',
               'Node.js',
-              'PostgreSQL',
               'MongoDB',
               'Firebase',
-              '(S)CSS',
+              'CSS',
               'HTML',
               'Webpack',
-              'Git',
+              'Git'
             ]}
             color="dark-blue"
           />
