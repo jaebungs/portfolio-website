@@ -53,9 +53,6 @@
       }
     }
   } 
-    .peach-square {
-      width: 60rem;
-    }
   }
 
   //ipad Pro(1024px) sizing and positioing
@@ -87,10 +84,6 @@
           margin-left: 56rem;
         }
       }
-    }
-        
-    .peach-square {
-      width: 45rem;
     }
   }
 
@@ -126,12 +119,6 @@
         }
       }
     }
-
-    .peach-square {
-      width: 55rem;
-      height: 35rem;
-    }
-    
   }
 
 // less than 700px
@@ -160,14 +147,7 @@
         }
       }
     }
-
-    .peach-square {
-      width: 47rem;
-      height: 30rem;
-    }
   }
-
-
 }
 
 .project {
@@ -177,21 +157,6 @@
   &__title {
     font-size: $big-title;
     margin-bottom: $m-margin;
-  }
-}
-
-
-.peach-square {
-  width: 80rem;
-  height: 46rem;
-  background-color: $light-peach;
-}
-
-@media (max-width: $media-big) {
-
-  .peach-square {
-    width: 70rem;
-    height: 46rem;
   }
 }
 

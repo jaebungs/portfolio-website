@@ -1,0 +1,31 @@
+
+.masonry-page-image {
+    max-width: 40rem;
+    max-height: 32rem;
+    margin-top: 30rem;
+}
+
+.peach-square {
+    background-color: $light-peach;
+    width: 50rem;
+    height: 40rem;
+    margin-top: 60rem;
+}
+
+@media (min-width: 700px){
+    .masonry-project {
+        margin-top: -200px;
+    }
+
+    .masonry-page-image {
+        max-width: 44rem;
+        max-height: 33rem;
+        margin-top: 25rem;
+    }
+
+    .peach-square {
+        width: 55rem;
+        height: 45rem;
+        margin-top: 38rem;
+    }
+}

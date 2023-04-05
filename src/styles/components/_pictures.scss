@@ -1,15 +1,9 @@
-// size for pictures - masonry and profile
+// size for pictures - profile
 .profile-picture{
     width: 16rem;
     height: 16rem;
     margin:0 $b-margin;
     z-index: 10;
-}
-
-
-.masonry-page-image {
-    max-width: 50rem;
-    max-height: 39rem;
 }
 
 @media (max-width: $media-big) {

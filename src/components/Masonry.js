@@ -8,7 +8,7 @@ const Project = () => {
   const [isMasonrylOpen, setIsMasonryOpen] = useState(false);
 
   return (
-    <section className="project-section">
+    <section className="project-section masonry-project">
       <article className="project-section__left-article">
         <div className="project-section__left-image">
           <ParallaxLayer
