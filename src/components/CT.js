@@ -4,7 +4,7 @@ import zipGateImg from '../files/ct-image.png';
 import inventoryImg from '../files/ct-inventory.png';
 import {ParallaxLayer} from 'react-spring/renderprops-addons';
 
-const Project = () => {
+const CT = () => {
 
   return (
     <section className="project-section">
@@ -41,4 +41,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default CT;
