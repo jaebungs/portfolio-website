@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ProjectInfoCard from './projects/ProjectInfoCard';
 import visualizerImage from '../files/visualizer-img.png';
 import {ParallaxLayer} from 'react-spring/renderprops-addons';

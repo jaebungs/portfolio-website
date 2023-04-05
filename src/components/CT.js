@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ProjectInfoCard from './projects/ProjectInfoCard';
 import zipGateImg from '../files/ct-image.png';
 import inventoryImg from '../files/ct-inventory.png';

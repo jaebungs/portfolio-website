@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ProjectInfoCard from './projects/ProjectInfoCard';
 import TCOMain from '../files/tco-main.png';
 import TCOModal from '../files/tco-modal.png';

@@ -41,7 +41,7 @@ function App() {
         <ParallaxLayer offset={6} factor={0} speed={0.1}>
           <Masonry />
         </ParallaxLayer>
-        <ParallaxLayer offset={6.8} speed={0.1}>
+        <ParallaxLayer offset={6.6} speed={0.1}>
           <Footer />
         </ParallaxLayer>
       </Parallax>
