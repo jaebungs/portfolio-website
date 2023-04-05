@@ -127,10 +127,6 @@
       }
     }
 
-    .green-circle {
-      width: 45rem;
-      height: 45rem;
-    }
     .peach-square {
       width: 55rem;
       height: 35rem;
@@ -164,11 +160,7 @@
         }
       }
     }
-    .green-circle {
-      width: 40rem;
-      height: 40rem;
-      left: 5rem;
-    }
+
     .peach-square {
       width: 47rem;
       height: 30rem;
@@ -188,15 +180,6 @@
   }
 }
 
-.green-circle {
-    background-color: $light-green;
-    border-radius: 50%;
-    width: 60rem;
-    height: 60rem;
-    position: absolute;
-    top: 0;
-    left: 10rem;
-}
 
 .peach-square {
   width: 80rem;
@@ -205,11 +188,7 @@
 }
 
 @media (max-width: $media-big) {
-  
-  .green-circle {
-    max-width: 50rem;
-    max-height: 50rem;
-  }
+
   .peach-square {
     width: 70rem;
     height: 46rem;

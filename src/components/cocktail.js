@@ -22,7 +22,7 @@ const Cocktail = () => {
           {/* relative position wrapper div to responsively keep the green cirlce on the same position. */}
           <ParallaxLayer className="parallaxLayer__project--image" offset={0} speed={0.1}>
             <img
-              className="cocktail-page-image responsive-image"
+              className="cocktail-image responsive-image"
               src={cocktails}
               alt="Mymy cocktail page screenshot"
             />

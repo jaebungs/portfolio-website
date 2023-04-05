@@ -1,24 +1,38 @@
 // size for mymy cocktail
-.cocktail-page-image {
+.cocktail-image {
     border: 2px solid #000;
     border-radius: 50%;
-    max-width: 50rem;
-    max-height: 50rem;
+    max-width: 40rem;
+    max-height: 40rem;
+    margin-top: 25rem;
+    margin-left: -5rem;
 }
 
+.green-circle {
+    background-color: $light-green;
+    border-radius: 50%;
+    width: 50rem;
+    height: 50rem;
+    margin-top: 50rem;
+    margin-left: 8rem;
+}
 
-@media (max-width: $media-big) {
-    //ipad size
-    .cocktail-page-image {
+@media (min-width: 700px){
+    .cocktail-image {
+        border: 2px solid #000;
+        border-radius: 50%;
         max-width: 40rem;
         max-height: 40rem;
+        margin-top: 30rem;
+        margin-left: -3rem;
     }
-}
-
-// less than 700px
-@media(max-width: $media-small) {
-    .cocktail-page-image {
-        max-width: 35rem;
-        max-height: 35rem;
+    
+    .green-circle {
+        background-color: $light-green;
+        border-radius: 50%;
+        width: 60rem;
+        height: 60rem;
+        margin-top: 40rem;
+        margin-left: 3rem;
     }
 }
