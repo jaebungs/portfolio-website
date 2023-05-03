@@ -18,7 +18,7 @@ const About = () => {
         <div className="about__text">
           <p>Hi, I'm</p>
           <h1 className="bold-typography">Jae Park,</h1>
-          <p className="bold-typography">a front-end developer</p>
+          <p className="bold-typography">a Software developer</p>
           <p className="description-typography">
             I love solving complex problems and making things easier to use.
           </p>
@@ -27,12 +27,14 @@ const About = () => {
               'JavaScript',
               'Vue',
               'React',
+              'Node.js',
+              'Express',
+              'PostgreSQL',
+              'MongoDB',
+              'Firebase',
               'VueX',
               'Redux',
               'AEM',
-              'Node.js',
-              'MongoDB',
-              'Firebase',
               'CSS',
               'HTML',
               'Webpack',
