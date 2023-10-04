@@ -3,6 +3,7 @@
     width: 16rem;
     height: 16rem;
     margin:0 $b-margin;
+    border-radius: 50%;
     z-index: 10;
 }
 
@@ -21,7 +22,6 @@
         max-height: 24rem;
     }
     .profile-picture{
-        max-width: 11rem;
-        max-height: 11rem;
+        width: 135px;
     }
 }
